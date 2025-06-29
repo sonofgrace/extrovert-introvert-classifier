@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 import numpy as np
 
-model = joblib.load("C:/Users/HUB/Desktop/extrovert_vs_introvert/models/final_model.pkl")
+model = joblib.load("models/final_model.pkl")
 
 st.title("🧠 Introvert vs Extrovert Classifier")
 st.write("Answer the below questions to predict your personality type!")
