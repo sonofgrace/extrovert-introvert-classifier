@@ -1,6 +1,6 @@
-## 🧠 Personality Prediction: Introvert vs Extrovert Classifier
+# 🧠 Extrovert vs Introvert Classifier
 
-This project uses behavioural traits to classify individuals as **Introverts** or **Extroverts** using Machine Learning. The dataset is sourced from Kaggle and explores correlations between social habits and personality types.
+A Streamlit web app that predicts whether a person is likely to be an **Extrovert** or **Introvert** based on 7 behavioral traits — using machine learning.
 
 ---
 
@@ -10,11 +10,30 @@ Can we predict whether a person is an introvert or extrovert based on their resp
 
 ---
 
+
+## 🔍 Project Highlights
+
+- ✅ **ML-powered prediction** using a Random Forest Classifier
+- 🔮 **SHAP explainability** to visualize why each prediction was made
+- 📊 **User feedback collection** to gather real-world evaluation data
+- ⚡ Built with **Streamlit**, **Scikit-learn**, and **SHAP**
+- 🧠 Dataset: [Extrovert vs Introvert Behavior Data (Kaggle)](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data)
+
+---
+
+## 🚀 Live App
+
+👉 [Try it on Streamlit Cloud](https://extrovert-introvert-ml.streamlit.app)
+
+---
+
 ## 🧰 Tools & Technologies
 - Python (pandas, seaborn, scikit-learn, xgboost)
 - Jupyter Notebooks
-- Streamlit (optional deployment)
+- Streamlit
+- Numpy
 - Matplotlib
+- SHAP
 
 ---
 
@@ -84,7 +103,8 @@ streamlit run app/app.py
 
  ## 🙋🏽‍♂️ Author
 
-**Dr. Benedict Nweke  
+**Dr. Benedict Nweke**
+
 Aspiring Data Scientist & Medical Doctor  
-📫 [LinkedIn Profile]: https://www.linkedin.com/hephzyben 
-📂 [Project Repository]: (https://github.com/sonofgrace/extrovert-introvert-classifier)
+📫 LinkedIn Profile: https://www.linkedin.com/hephzyben
+📂 Github: @sonofgrace
