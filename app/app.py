@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load model
-model = joblib.load("C:/Users/HUB/Desktop/extrovert_vs_introvert/models/final_model.pkl")
+model = joblib.load("models/final_model.pkl")
 
 # Set up SHAP Explainer
 explainer = shap.Explainer(model)
